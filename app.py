@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 
 VERIFICATION_TOKEN = "ewaste-project-verification-token-2026-secure"
-ENDPOINT = "https://saleably-nonbeneficial-allegra.ngrok-free.dev/webhook"
+ENDPOINT = "https://ebay-webhook-yfbd.onrender.com/webhook"
 
 @app.route("/webhook", methods=["GET"])
 def webhook():
